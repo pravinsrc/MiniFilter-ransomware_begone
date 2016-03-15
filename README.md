@@ -5,7 +5,7 @@
 
 
 
-> This is POC of a possible solution for blocking zero-day (or any other) ransomware in its early stage of encryption to prevent data lose.
+This is POC of a possible solution for blocking zero-day (or any other) ransomware in its early stage of encryption to prevent data lose.
 
 The idea is to use a mini filter driver which will monitor specif I/O requests, and a Honeypot fodler/files that will triger for infection activity in case a process is trying to modify its content.
 
@@ -51,6 +51,7 @@ Copy the folder **0Honeypot** to c:\  driver (and any other location you want if
 >
 > /a c: (Enter)
 
+## Demo
 You can watch a [DEMO](https://youtu.be/Fi1BsJ4lxec)
 
 Notice that the malware will not neccesarly stop running, since it could be injected and executed from different procceses, however, even if it keeps running until
