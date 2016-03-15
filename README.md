@@ -43,13 +43,13 @@ Copy the folder **0Honeypot** to c:\  driver (and any other location you want if
 >
 >open command line and goto the minispy.exe path
 >
-> minispy.exe ?
+> minispy.exe (Enter)
 >
->press another "Enter" ?
+>press another "Enter" 
 >
 >( now to activate driver monitoring: )
 >
-> /a c: ?
+> /a c: (Enter)
 
 You can watch a [DEMO](https://youtu.be/Fi1BsJ4lxec)
 
